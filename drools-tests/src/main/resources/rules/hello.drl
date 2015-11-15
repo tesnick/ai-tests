@@ -1,0 +1,8 @@
+package com.tesnick.ai.drools;
+
+rule "HelloDrools"
+    when
+        $droolsIntro : HelloDrools( topic == "Drools" )
+    then
+        System.out.println($droolsIntro.introduceYourself());
+end
