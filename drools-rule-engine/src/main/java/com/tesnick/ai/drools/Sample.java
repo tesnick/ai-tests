@@ -2,6 +2,9 @@ package com.tesnick.ai.drools;
 
 /**
  * Created by tesnick on 15/11/15.
+ *
+ * * From http://examples.javacodegeeks.com/enterprise-java/jboss-drools-tutorial-beginners/
+ *
  */
 
 import org.kie.api.KieServices;
